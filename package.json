@@ -1,0 +1,28 @@
+{
+  "name": "react-native-fabric-digits",
+  "version": "1.0.0",
+  "description": "Fabric Digits wrapper to use it in React-Native",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proximaio/react-native-fabric-digit.git"
+  },
+  "keywords": [
+    "react-native",
+    "js",
+    "fabric",
+    "digits"
+  ],
+  "author": "James Littlejohn <james@proxima.io> (https://github.com/thessem/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/proximaio/react-native-fabric-digit/issues"
+  },
+  "homepage": "https://github.com/proximaio/react-native-fabric-digit#readme"
+}
