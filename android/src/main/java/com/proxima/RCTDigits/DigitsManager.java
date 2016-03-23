@@ -82,8 +82,12 @@ public class DigitsManager extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void logout() {
-        if (Digits.getSessionManager() != null)
-            Digits.getSessionManager().clearActiveSession();
+        try {
+            if (Digits.getSessionManager() != null)
+                Digits.getSessionManager().clearActiveSession();
+        } catch (Exception error) {
+
+        }
     }
 
     private TwitterAuthConfig getTwitterConfig() {
