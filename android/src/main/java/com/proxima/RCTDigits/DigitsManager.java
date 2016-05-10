@@ -47,7 +47,6 @@ public class DigitsManager extends ReactContextBaseJavaModule {
     @ReactMethod
     public void launchAuthentication(ReadableMap options, final Promise promise) {
         TwitterAuthConfig authConfig = getTwitterConfig();
-        Fabric.with(mContext, new TwitterCore(authConfig), new Digits());
 
         String phoneNumber = options.hasKey("phoneNumber") ? options.getString("phoneNumber") : "";
 
